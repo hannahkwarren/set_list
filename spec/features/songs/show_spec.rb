@@ -24,7 +24,7 @@ RSpec.describe 'the songs.show page' do
 
     visit "/songs/#{song.id}"
 
-    save_and_open_page
+    # save_and_open_page
     
     expect(page).to have_content(artist.name)
   end
